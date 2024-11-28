@@ -31,7 +31,7 @@ def send_email_with_attachment(sender_email, sender_password, recipient_email, s
         
         # Mengirim email
         server.sendmail(sender_email, recipient_email, msg.as_string())
-        print("Email berhasil dikirim dengan lampiran!")
+        print("Email berhasil dikirim.")
         
         # Menutup koneksi ke server SMTP
         server.quit()
